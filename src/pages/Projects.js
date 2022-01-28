@@ -21,7 +21,7 @@ const Projects = () => {
       <Music trigger={btnMusicState} setTrigger={setBtnMusicState} />
 
       <div onClick={() => setBtnCalcState(true)} className="project">
-        Kalkulator
+        Calculator
       </div>
       <div onClick={() => setBtnMusicState(true)} className="project">
         Music Player app
@@ -30,7 +30,7 @@ const Projects = () => {
         To Do App
       </div>
       <div onClick={() => setBtnReduxState(true)} className="project">
-        System oceniania(Redux)
+        Comment System(Redux)
       </div>
     </div>
   );
