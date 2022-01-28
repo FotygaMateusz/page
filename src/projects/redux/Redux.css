@@ -1,0 +1,16 @@
+.Reduxform {
+  margin: auto;
+  margin-top: 100px;
+  width: 400px;
+  display: block;
+  background-color: #998697;
+  padding: 50px;
+  box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8),
+    inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+}
+
+.Reduxform ul {
+  list-style-type: none;
+  margin-top: 10px;
+}

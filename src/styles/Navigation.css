@@ -1,0 +1,36 @@
+nav.main {
+  margin-top: 10%;
+}
+
+.main button {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  text-decoration: none;
+  background-color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 13px;
+  font-size: 15px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+nav.main a {
+  transition: 0.2s;
+}
+
+nav.main a:hover {
+  transform: translateX(20px);
+  font-size: 17px;
+}
+
+.inactive {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+}
+
+.active {
+  color: #fff;
+  text-decoration: none;
+}
